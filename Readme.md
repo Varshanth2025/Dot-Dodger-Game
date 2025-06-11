@@ -16,3 +16,4 @@ Open `index.html` in your browser.
 ## License
 
 MIT
+![alt text](image.png)
