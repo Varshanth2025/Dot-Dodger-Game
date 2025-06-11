@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dot Dodger Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🎮 Dot Dodger Game</h1>
+    <div id="gameContainer">
+      <canvas id="gameCanvas" width="400" height="500"></canvas>
+      <div id="sidebar">
+        <button id="restartBtn">🔄 Restart</button>
+        <button id="settingsBtn">⚙️ Settings</button>
+        <button id="playerSpeedBtn" style="display: none">Player Speed</button>
+        <button id="enemySpeedBtn" style="display: none">Enemy Speed</button>
+        <div id="speedInputBox">
+          <input type="number" id="speedInput" placeholder="" />
+          <button id="setBtn">Set</button>
+          <button id="backBtn">⬅ Back</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+canvas {
+  background: whitesmoke;
+  display: block;
+  border: 2px solid rgb(139, 252, 126);
+}
+body {
+  text-align: center;
+  font-family: Arial;
+  margin: 0;
+}
+h1 {
+  width: 400px;
+  margin: 20px auto;
+  margin-left: calc(50% - 200px - 140px);
+}
+#gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  margin: 0 auto;
+  width: fit-content;
+}
+#sidebar {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px; /* Reduced padding to fit elements in square */
+  border: 2px solid #ccc;
+  background-color: #f0f0f0;
+  height: 100px; /* Square dimensions */
+  width: 140px; /* Square dimensions */
+  margin-left: 0;
+  box-sizing: border-box;
+}
+#restartBtn,
+#settingsBtn,
+#playerSpeedBtn,
+#enemySpeedBtn,
+#backBtn,
+#setBtn {
+  display: block;
+  width: 100%;
+  margin: 5px 0; /* Reduced margin for better fit */
+  padding: 8px; /* Slightly reduced padding */
+  font-size: 12px; /* Smaller font size to fit better */
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+#restartBtn {
+  background-color: orange;
+  color: white;
+}
+#settingsBtn {
+  background-color: gray;
+  color: white;
+}
+#playerSpeedBtn {
+  background-color: #4caf50;
+  color: white;
+}
+#enemySpeedBtn {
+  background-color: #2196f3;
+  color: white;
+}
+#backBtn {
+  background-color: #f44336;
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+#setBtn {
+  background-color: #008cba;
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+#speedInputBox {
+  display: none;
+  padding: 5px;
+  margin: 5px 0; /* Reduced margin */
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+#speedInput {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 12px; /* Match button font size */
+  box-sizing: border-box;
+}
